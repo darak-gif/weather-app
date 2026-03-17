@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 @layer utilities {
@@ -54,24 +56,24 @@
 @keyframes slideInFromBottom {
   from {
     opacity: 0;
-    trasnform: translateY(1rem);
+    transform: translateY(1rem);
   }
 
   to {
     opacity: 1;
-    trasnform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 @keyframes slideInFromTop {
   from {
     opacity: 0;
-    trasnform: translateY(-1rem);
+    transform: translateY(-1rem);
   }
 
   to {
     opacity: 1;
-    trasnform: translateY(0);
+    transform: translateY(0);
   }
 
   
@@ -80,12 +82,12 @@
 @keyframes slideInFromLeft {
   from {
     opacity: 0;
-    trasnform: translateY(1rem);
+    transform: translateY(1rem);
   }
 
   to {
     opacity: 1;
-    trasnform: translateY(0);
+    transform: translateY(0);
   }
 
   
@@ -94,12 +96,12 @@
 @keyframes slideOutFromLeft {
   from {
     opacity: 0;
-    trasnform: translateX(-1rem);
+    transform: translateX(-1rem);
   }
 
   to {
     opacity: 1;
-    trasnform: translateX(0);
+    transform: translateX(0);
   }
 
   
