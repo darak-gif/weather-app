@@ -7,7 +7,7 @@ It provides real-time weather data, hourly forecast, and 5-day forecast using Op
 
 ## 🚀 Live Demo
 
-🔗 [View Live Website](YOUR_DEPLOY_LINK_HERE)
+🔗 [View Live Website](https://weather-app-three-snowy-36.vercel.app/)
 
 ---
 
@@ -19,7 +19,7 @@ It provides real-time weather data, hourly forecast, and 5-day forecast using Op
 ### 🏠 Choose location 
 ![Now Screenshot](./screenshots/now_no_location.png)
 
-### 🏠 Now Page
+### 🌡 Now Page
 ![Now Screenshot](./screenshots/now.png)
 
 ### 📅 5-Day Forecast
