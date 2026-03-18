@@ -161,7 +161,8 @@ export function Card5Days({dayData,location,isCelsius}){
           <span>{location? dayData.description : " -----"}</span>
         </div>
         <div className="flex">
-          <span>{location? dayData.humidity : "--"}%</span>
+          <span>{location? dayData.humidity : "--"}%💧</span>
+
         </div>
       </div>
   </div>
